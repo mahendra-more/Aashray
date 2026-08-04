@@ -1,0 +1,82 @@
+# =========================
+# Java
+# =========================
+*.class
+*.log
+*.ctxt
+
+# =========================
+# Maven
+# =========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Spring Boot
+# =========================
+*.jar
+*.war
+*.ear
+
+# =========================
+# IDE - Eclipse
+# =========================
+.project
+.classpath
+.settings/
+.factorypath
+
+# =========================
+# IDE - IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+
+# =========================
+# IDE - VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Application Properties
+# Ignore if they contain passwords
+# =========================
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+
+# =========================
+# Environment Variables
+# =========================
+.env
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Generated Files
+# =========================
+out/
+bin/
